@@ -1,0 +1,43 @@
+#!/bin/sh
+# postinst script
+# see: dh_installdeb(1)
+
+set -e
+
+update_icons (){
+    if [ -e /usr/share/backgrounds/hamonikr/default_background.jpg ]
+    then
+        touch /usr/share/backgrounds/hamonikr/default_background.jpg
+        echo "Updated timestamp for default background"
+    fi
+    if [ -e /usr/share/cinnamon/theme/menu.svg ]
+    then
+        touch /usr/share/cinnamon/theme/menu.svg
+        echo "Updated timestamp for /usr/share/cinnamon/theme/menu.svg"
+    fi    
+    gtk-update-icon-cache || true
+}
+
+case "$1" in
+    configure)
+
+    update_icons
+
+    glib-compile-schemas /usr/share/glib-2.0/schemas
+
+    ;;
+    abort-upgrade|abort-remove|abort-deconfigure)
+
+    ;;
+    triggered)
+
+    update_icons
+
+    ;;
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+exit 0

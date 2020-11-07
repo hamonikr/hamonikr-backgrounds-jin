@@ -1,0 +1,19 @@
+hamonikr-backgrounds-jin (1.0.2) jin; urgency=low
+
+  * change image path in hamonikr.xml
+   - cinnamon-background-properties
+   - gnome-background-properties
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 30 Oct 2020 10:39:12 +0900
+
+hamonikr-backgrounds-jin (1.0.1) jin; urgency=low
+
+  * Changed xml filename
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 30 Oct 2020 10:31:26 +0900
+
+hamonikr-backgrounds-jin (1.0.0) jin; urgency=low
+
+  * Added Korea Wallpaper for HamoniKR 4.0 Jin
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 29 Oct 2020 13:55:58 +0900
