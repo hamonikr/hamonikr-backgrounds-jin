@@ -1,20 +1,15 @@
-# HamoniKR OS background images for Jin
+## HamoniKR OS background images for Jin
 
 Image resources for HamoniKR background
 
+![screenshot.png](./doc/screenshot.png)
 
-# Install (HamoniKR-ME, HamoniKR-3.0), HamoniKR-JIN)
+## Install
 ```
 sudo apt install hamonikr-backgrounds-jin
 ```
 
-# How to build debian package
-```
-debuild -T clean
-debuild -us -uc
-```
-
-# License
+## License
 
 [GPL3](./LICENSE)
 
