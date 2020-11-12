@@ -1,3 +1,12 @@
+hamonikr-backgrounds-jin (1.0.3) jin; urgency=low
+
+  * Add new backgroung images
+   - Add wallpaper-01.jpg made by HamoniKR
+   - Add wallpaper-02.jpg made by HamoniKR  
+   - Add wallpaper-03.jpg made by HamoniKR
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 12 Nov 2020 13:05:54 +0900
+
 hamonikr-backgrounds-jin (1.0.2) jin; urgency=low
 
   * change image path in hamonikr.xml
